@@ -9,8 +9,5 @@
       "**/.*",
       "**/node_modules/**"
     ]
-  },
-  "remoteconfig": {
-    "template": "remoteconfig.template.json"
   }
 }
