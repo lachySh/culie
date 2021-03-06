@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import styled from "styled-components"
 import background from "../assets/landing_page.jpg"
-import {Button} from "@material-ui/core";
+import {Box, Button, Grid} from "@material-ui/core";
 
 const Landing = () =>{
 
@@ -11,9 +11,12 @@ const Landing = () =>{
        <Container>
             <Content>
                 <h1> Landing Page</h1>
-                <Button component = { Link } to="/login" variant="contained" color="primary">
-                    Join Now
-                </Button>
+                <Grid container justify="center">
+                    <Button component = { Link } to="/login" variant="contained" color="primary">
+                        Join Now
+                    </Button>
+                </Grid>
+
             </Content>
 
 
