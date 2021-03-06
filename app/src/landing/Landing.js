@@ -18,9 +18,13 @@ export default App;
 function Group37(props) {
     let history = useHistory();
 
-    const closeUpload = () =>{
+    const openLogin = () =>{
         history.push('/login');
     }
+
+    const openRegistration = () =>{
+      history.push('/register');
+  }
 
   const {
     logo,
@@ -123,12 +127,12 @@ function Group37(props) {
         <div className="for-employers mulish-bold-haiti-23px">{forEmployers}</div>
         <div className="about-us mulish-normal-haiti-23px">{aboutUs}</div>
         <div className="register-button">
-          <button className="overlap-group-1" onClick={registerPage}>
+          <button className="overlap-group-1" onClick={openRegistration}>
             <div className="x-button"></div>
             <div className="place mulish-bold-coconut-23px">{place}</div>
           </button>
         </div>
-        <button className="login-button" onClick={closeUpload}>
+        <button className="login-button" onClick={openLogin}>
           <div className="overlap-group-1">
             <div className="x-button"></div>
             <div className="log-in mulish-bold-soapstone-23px">{logIn}</div>
@@ -246,10 +250,6 @@ function Group37(props) {
       </div>
     </div>
   );
-}
-
-function registerPage() {
-    
 }
 
 const group37Data = {
