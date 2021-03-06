@@ -3,14 +3,14 @@ import {Button, FormControl} from "@material-ui/core";
 import 'bootstrap/dist/css/bootstrap.css'
 import './styles.css'
 import styled from "styled-components"
-import logo from '../assets/landing/logo.png'
+import logo from '../assets/landing/culie.png'
 const Navigation = () => {
     return (
         <>
-            <Container>
+            <Container >
                 <Navbar bg="bg-transparent" >
                     <a className="navbar-brand" >
-                        <img src='landing/Logo.svg' alt='this image is not available'/>
+                        <Logo src={logo} alt='this image is not available'/>
                     </a>
 
 
@@ -28,13 +28,17 @@ const Navigation = () => {
 
 
 }
+const Logo = styled.img`
+  max-height: 150px;
 
+  
+`
 
 const Container = styled.div`
-    padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+    max-height:100px
 
 
 `
