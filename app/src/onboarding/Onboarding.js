@@ -6,6 +6,7 @@ import {Box, Button, Grid} from "@material-ui/core";
 import 'bootstrap/dist/css/bootstrap.css'
 import Navigation from "./Navigation"
 import {Col, Container, Row} from "react-bootstrap";
+import Description from "./Description";
 const Onboarding = () => {
     return(
         <>
@@ -19,7 +20,7 @@ const Onboarding = () => {
 
                     <Row>
                         <Col  lg="4">
-                            description
+                            <Description description= "What matters the most to you?" title="Rank the qualities." emoji="⛰️"/>
                         </Col>
                         <Col lg="2">
                            empty space
