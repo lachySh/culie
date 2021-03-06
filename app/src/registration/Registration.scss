@@ -1,0 +1,225 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Mulish:700");
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.create-account {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  display: flex;
+  height: 1vh;
+  max-width: 100%;
+}
+.create-account .auto-flex {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 768px;
+  width: 709px;
+}
+.create-account .auto-flex1 {
+  align-items: flex-start;
+  display: flex;
+  height: 108px;
+  margin-left: 3px;
+  margin-top: 16px;
+  min-width: 502px;
+}
+.create-account .auto-flex2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 139px;
+  margin-top: 141px;
+  min-height: 559px;
+  width: 505px;
+}
+.create-account .create-account {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: -1px;
+  min-height: 55px;
+  white-space: nowrap;
+}
+.create-account .culie-logo {
+  height: 61px;
+  margin-left: 46px;
+  object-fit: cover;
+  width: 35px;
+}
+.create-account .e-mail-address {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: -21px;
+  min-height: 35px;
+  white-space: nowrap;
+}
+.create-account .email-address {
+  position: absolute;
+  top: 321px;
+  left:891px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+  margin-top: 17px;
+  min-height: 114px;
+  width: 493px;
+}
+.create-account .example-scene-3-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 564px;
+  margin-top: 43px;
+  margin-left: 20px;
+  width: 709px;
+}
+.create-account .layer-2 {
+  height: 565px;
+  margin-top: -1.03px;
+  width: 709px;
+}
+.create-account .overlap-group {
+  align-items: flex-end;
+  background-color: var(--blueberry);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 63px;
+  justify-content: flex-end;
+  min-width: 491px;
+  padding: 3px 200px;
+}
+.create-account .password {
+  position: absolute;
+  top: 461px;
+  left:891px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 108px;
+  width: 239px;
+}
+.create-account .password-1 {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: -23px;
+  min-height: 33px;
+  white-space: nowrap;
+}
+.create-account .re-enter {
+  position: absolute;
+  top: 461px;
+  left:1138px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-height: 108px;
+  width: 248px;
+}
+.create-account .re-enter-password {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: -28px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+.create-account .rectangle-34 {
+  position: absolute;
+  top: 271px;
+  left:891px;
+  background-color: var(--ebb);
+  border-radius: 15px;
+  height: 63px;
+  width: 491px;
+}
+.create-account .rectangle-35 {
+  background-color: var(--ebb);
+  border-radius: 15px;
+  height: 59px;
+  margin-top: 16px;
+  width: 237px;
+}
+.create-account .rectangle-37 {
+  background-color: var(--ebb);
+  border-radius: 15px;
+  height: 63px;
+  margin-top: 16px;
+  width: 491px;
+}
+.create-account .rectangle-39 {
+  background-color: var(--ebb);
+  border-radius: 15px;
+  height: 59px;
+  margin-top: 21px;
+  width: 237px;
+}
+.create-account .sign-up {
+  position: absolute;
+  top: 521px;
+  left:891px;
+  align-items: flex-start;
+  display: flex;
+  margin-left: 3px;
+  margin-top: 43px;
+  min-width: 493px;
+}
+.create-account .sign-up-1 {
+  letter-spacing: 0px;
+  line-height: 56px;
+  min-height: 56px;
+  min-width: 89px;
+  white-space: nowrap;
+}
+.create-account .your-name {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+  margin-top: 23px;
+  min-height: 119px;
+  width: 493px;
+}
+.create-account .your-name-1 {
+  position: absolute;
+  top: 201px;
+  left:891px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  min-height: 56px;
+  white-space: nowrap;
+}
+.mulish-bold-black-23px {
+  color: black;
+  font-family: "Mulish", Helvetica;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-black-48px {
+  position: absolute;
+  top: 151px;
+  left:891px;
+  color: black;
+  font-family: "Mulish", Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-bon-jour-23px {
+  color: var(--bon-jour);
+  font-family: "Mulish", Helvetica;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+:root {
+  --blueberry: rgba(82, 113, 255, 1);
+  --bon-jour: rgba(223, 223, 223, 1);
+  --ebb: rgba(234, 226, 226, 1);
+  --soapstone: rgba(255, 252, 247, 1);
+}

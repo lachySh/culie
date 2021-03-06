@@ -5,6 +5,7 @@ import Landing from "./landing/Landing";
 import LoginPage from "./login/Login"
 import Landing2 from "./landing2/Landing2"
 
+import RegistrationPage from "./registration/Registration"
 function App() {
   return (
           <Switch>
@@ -17,6 +18,11 @@ function App() {
                 exact
                 path="/login"
                 component={LoginPage} />
+              
+              <Route
+                exact
+                path="/register"
+                component={RegistrationPage} />
 
               <Route
                 exact
