@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import styled from "styled-components"
 import background from "../assets/landing/background.png"
 import {Box, Button, Grid} from "@material-ui/core";
-import Navigation from "./Navigation";
 
 const Landing = () =>{
 
@@ -12,10 +11,8 @@ const Landing = () =>{
    return (
 
            <Container>
-               <Navigation>
 
 
-               </Navigation>
                {/*<Content>*/}
                {/*    <h1> Landing Page</h1>*/}
                {/*    <Grid container justify="center">*/}

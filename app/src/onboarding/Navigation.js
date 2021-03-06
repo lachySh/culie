@@ -12,25 +12,7 @@ const Navigation = () => {
                     <a className="navbar-brand" >
                         <img src='landing/Logo.svg' alt='this image is not available'/>
                     </a>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#features">For Employers</Nav.Link>
-                            <Nav.Link href="#pricing">About Us</Nav.Link>
 
-                        </Nav>
-                        <Nav>
-                                <img src='landing/register-button.svg' alt='this image is not available'/>
-
-                        </Nav>
-                        <Nav.Link eventKey={2} href="#memes">
-                            <Image>
-
-                                <img src='landing/register-button.svg' alt='this image is not available'/>
-
-                            </Image>
-                        </Nav.Link>
-                    </Navbar.Collapse>
 
                 </Navbar>
 
