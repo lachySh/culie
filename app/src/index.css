@@ -16,3 +16,106 @@ code {
   font-family: 'Mulish';
   src: local('FiraSans'), url("./assets/font/Mulish/static/Mulish-Regular.ttf")  format('truetype');
 }
+
+
+.btn-custom {
+  color: #5271FF;
+  background-color: rgba(210, 218, 255, 0.61);
+    font: Mulish;
+  border-color:rgba(210, 218, 255, 0.61);
+}
+
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom.active {
+  background: #798FF8;
+  color: #ffffff;
+
+}
+
+.btn-custom {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-custom:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.btn-c {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-c:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.btn-c:focus, .btn-c.focus {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+  box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
+}
+
+.btn-c.disabled, .btn-c:disabled {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-c:not(:disabled):not(.disabled):active, .btn-c:not(:disabled):not(.disabled).active,
+.show > .btn-c.dropdown-toggle {
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #d3d9df;
+}
+
+.btn-c:not(:disabled):not(.disabled):active:focus, .btn-c:not(:disabled):not(.disabled).active:focus,
+.show > .btn-c.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
+}
+
+.btn-d {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-d:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+.btn-d:focus, .btn-d.focus {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.btn-d.disabled, .btn-d:disabled {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-d:not(:disabled):not(.disabled):active, .btn-d:not(:disabled):not(.disabled).active,
+.show > .btn-d.dropdown-toggle {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
+}
+
+.btn-d:not(:disabled):not(.disabled):active:focus, .btn-d:not(:disabled):not(.disabled).active:focus,
+.show > .btn-d.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
