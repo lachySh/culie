@@ -1,27 +1,35 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import styled from "styled-components"
-import background from "../assets/landing_page.jpg"
+import background from "../assets/landing/background.png"
 import {Box, Button, Grid} from "@material-ui/core";
+import Navigation from "./Navigation";
 
 const Landing = () =>{
 
 
+
    return (
-       <Container>
-            <Content>
-                <h1> Landing Page</h1>
-                <Grid container justify="center">
-                    <Button component = { Link } to="/login" variant="contained" color="primary">
-                        Join Now
-                    </Button>
-                </Grid>
 
-            </Content>
+           <Container>
+               <Navigation>
 
 
+               </Navigation>
+               {/*<Content>*/}
+               {/*    <h1> Landing Page</h1>*/}
+               {/*    <Grid container justify="center">*/}
+               {/*        <Button component = { Link } to="/login" variant="contained" color="primary">*/}
+               {/*            Join Now*/}
+               {/*        </Button>*/}
+               {/*    </Grid>*/}
 
-       </Container>
+               {/*</Content>*/}
+
+
+
+           </Container>
+
 
 
    )
@@ -37,7 +45,7 @@ const Wrapper = styled.div`
 
 
 const Container = styled.div`
-    background-image: url(${background});
+    background: #ECEFF1;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -45,8 +53,9 @@ const Container = styled.div`
     left: 0;
     justify-content: center;
     align-items:center;
-    
+
 `;
+
 
 const Content = styled.div`
     position: fixed;
@@ -55,7 +64,7 @@ const Content = styled.div`
     transform: translate(-50%, -50%);
     justify-content: center;
     align-items:center;
-  
+
 
 `
 
