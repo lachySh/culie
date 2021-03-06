@@ -6,6 +6,7 @@ import Landing from "./landing/Landing";
 import Rank from "./onboarding/Rank"
 import OnboardingBoilerplate from "./onboarding/OnboardingBoilerplate";
 import Roles from "./onboarding/Roles";
+import Preferences from "./onboarding/Preferences";
 function App() {
   return (
         <Container>
@@ -26,6 +27,10 @@ function App() {
                     exact
                     path="/onboarding/2"
                     component={Roles}/>
+                    <Route
+                        exact
+                        path="/onboarding/3"
+                        component={Preferences}/>
             </Switch>
 
 
