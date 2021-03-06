@@ -3,6 +3,7 @@ import './App.css';
 import {Redirect, Switch, Route} from 'react-router-dom';
 import Landing from "./landing/Landing";
 import LoginPage from "./login/Login"
+import RegistrationPage from "./registration/Registration"
 function App() {
   return (
           <Switch>
@@ -15,6 +16,11 @@ function App() {
                 exact
                 path="/login"
                 component={LoginPage} />
+              
+              <Route
+                exact
+                path="/register"
+                component={RegistrationPage} />
 
 
           </Switch>
