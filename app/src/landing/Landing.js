@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import styled from "styled-components"
 import background from "../assets/landing_page.jpg"
-
+import {Button} from "@material-ui/core";
 
 const Landing = () =>{
 
@@ -11,7 +11,9 @@ const Landing = () =>{
        <Container>
             <Content>
                 <h1> Landing Page</h1>
-
+                <Button component = { Link } to="/login" variant="contained" color="primary">
+                    Join Now
+                </Button>
             </Content>
 
 
@@ -38,6 +40,8 @@ const Container = styled.div`
     bottom: 0;
     right: 0;
     left: 0;
+    justify-content: center;
+    align-items:center;
     
 `;
 
@@ -46,9 +50,12 @@ const Content = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    justify-content: center;
+    align-items:center;
+  
 
 `
+
 
 
 
