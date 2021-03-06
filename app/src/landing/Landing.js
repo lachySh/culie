@@ -9,8 +9,10 @@ const Landing = () =>{
 
    return (
        <Container>
+            <Content>
+                <h1> Landing Page</h1>
 
-               Landing Page
+            </Content>
 
 
 
@@ -39,6 +41,14 @@ const Container = styled.div`
     
 `;
 
+const Content = styled.div`
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+`
 
 
 
