@@ -18,11 +18,8 @@ const useStyles = makeStyles((theme) => ({
 
 const Onboarding = () => {
     const classes = useStyles();
-    const [age, setAge] = React.useState('');
 
-    const handleChange = (event) => {
-        setAge(event.target.value);
-    };
+
 
     return(
         <>
@@ -57,8 +54,7 @@ const Onboarding = () => {
                                     <Select
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
-                                        value={age}
-                                        onChange={handleChange}
+
                                     >
                                         <MenuItem value={10} component={Text}>1-20 employees</MenuItem>
                                         <MenuItem value={20}>21-100 employees</MenuItem>
@@ -76,12 +72,10 @@ const Onboarding = () => {
                                     <Select
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
-                                        value={age}
-                                        onChange={handleChange}
+
                                     >
                                         <MenuItem value={10}>Entry-level/Graduate</MenuItem>
                                         <MenuItem value={20}>Junior(1-2 years)</MenuItem>
-                                        <MenuItem value={30}>Junior(1-2 years)</MenuItem>
                                         <MenuItem value={30}>Mid-level(3-4 years)</MenuItem>
                                         <MenuItem value={30}>Senior(5-8 years)</MenuItem>
                                         <MenuItem value={30}>9+ years</MenuItem>
@@ -96,8 +90,7 @@ const Onboarding = () => {
                                     <Select
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
-                                        value={age}
-                                        onChange={handleChange}
+
                                     >
                                         <MenuItem value={30}>Remotely</MenuItem>
                                         <MenuItem value={10}>Sydney</MenuItem>
