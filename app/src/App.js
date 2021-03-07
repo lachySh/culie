@@ -11,6 +11,8 @@ import Roleselection from "./onboarding/Roleselection";
 import Preferences from "./onboarding/Preferences";
 import Roles from "./onboarding/Roles";
 import Dashboard from "./dashboard/Dashboard";
+import Rolematching from "./role-match/role-match.js";
+
 function App() {
   return (
           <Switch>
@@ -50,6 +52,9 @@ function App() {
                     exact
                     path="/dashboard"
                     component={Dashboard}/>
+        <Route
+                path="/role-match"
+                component={Rolematching} />
 
           </Switch>
 
