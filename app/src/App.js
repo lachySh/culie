@@ -7,6 +7,7 @@ import Rank from "./onboarding/Rank"
 import OnboardingBoilerplate from "./onboarding/OnboardingBoilerplate";
 import Roles from "./onboarding/Roles";
 import Preferences from "./onboarding/Preferences";
+import Dashboard from "./dashboard/Dashboard";
 function App() {
   return (
         <Container>
@@ -31,6 +32,11 @@ function App() {
                         exact
                         path="/onboarding/3"
                         component={Preferences}/>
+
+                        <Route
+                            exact
+                            path="/dashboard"
+                            component={Dashboard}/>
 
 
 
