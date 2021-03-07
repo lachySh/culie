@@ -10,17 +10,14 @@ import medipass from "../assets/dashboard/logos/Medipass.png";
 import pwc from "../assets/dashboard/logos/pwc.png";
 import telstra from "../assets/dashboard/logos/telstra-icon.png";
 import xero from "../assets/dashboard/logos/xero-logo.png";
-
-const Main = () => {
+import job from "./jobs.json"
+const Main = (props) => {
     return (
         <Box>
             <Container className="pl-0">
 
-
-
-
                     <Welcome>
-                        Hi Julie, welcome to your dashboard.
+                        Hi {props.state.name}, welcome to your dashboard.
 
                     </Welcome>
                     <Subtitle>
@@ -34,18 +31,28 @@ const Main = () => {
                     <Iconwrapper>
                         <Row>
                             {
-                                [1,2,3,3].map((item) => {
+                                job.jobs.map((item) => {
+                                    var image = google
+                                    console.log(item.company)
+                                    if (item.company == "Atlassian") {
+                                        image = atlassian
+                                    }
+                                    if (item.company == "Australian Post") {
+                                        image = auspost
+                                    }
+                                    if (item.company == "Xero") {
+                                        image = xero
+                                    }
+                                    console.log(image)
                                     return (
                                         <Col md="3">
-                                            <Icon img={google}
-                                                  role = "Product Designer"
-                                                  company="Google"
-                                                  tag1 = "Culture"
-                                                  tag2="diverse"
-                                                  tag3="remote"
-                                                  description="
-As a product designer at Google, design solutions to complex problems in the form of consumer products.
-                              "
+                                            <Icon img={image}
+                                                  role = {item.title}
+                                                  company={item.company}
+                                                  tag1 = {item.tags[0]}
+                                                  tag2={item.tags[1]}
+                                                  tag3={item.tags[2]}
+                                                  description={item.description}
 
                                             />
                                         </Col>

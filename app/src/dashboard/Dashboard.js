@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import bgImg from "../assets/landing/background.png";
 import logo from "../assets/landing/logo.png";
 import Main from "./Main";
+
 class Dashboard extends React.Component {
     constructor(props){
         super(props)
@@ -21,7 +22,7 @@ class Dashboard extends React.Component {
                 <Container>
                     <Wrapper>
                         <Sidebar />
-                        <Main />
+                        <Main state={this.state}/>
                     </Wrapper>
                 </Container>
 

@@ -10,14 +10,44 @@
       ],
       "description": "As a product designer at Google, design solutions to complex problems in the form of consumer products.",
       "link": "www.google.com",
-      "img" : "google.png"
+      "img" : "google-logo.png"
     },
     {
-      "title": "UX Researcher"
-
+      "title": "Graphic Designer",
+      "company": "Atlassian",
+      "tags": [
+        "culture",
+        "diverse",
+        "remote"
+      ],
+      "description": "UX Research at Atlassian allows you to identify new and existing gaps in the UX research field. ",
+      "link": "https://jobs.lever.co/atlassian/b9efc931-1c81-4f1d-9849-b066707e3d8a/apply?lever-source=Glassdoor",
+      "img" : "atlassian.png"
+    },
+    {
+      "title": "UX Designer",
+      "company": "Australian Post",
+      "tags": [
+        "culture",
+        "diverse",
+        "remote"
+      ],
+      "description": "As a Graphic Designer at Australian Post, you’ll get the chance to help solidfy branding.",
+      "link": "https://auspost.com.au/",
+      "img" : "auspost.png"
+    },
+    {
+      "title": "Graphic Designer",
+      "company": "Xero",
+      "tags": [
+        "culture",
+        "diverse",
+        "remote"
+      ],
+      "description": "Product Design at Google allows you to be responsible for the user experience of reowned products.",
+      "link": "https://www.xero.com/au/",
+      "img" : "xero.png"
     }
-
-
-
   ]
 }
+
