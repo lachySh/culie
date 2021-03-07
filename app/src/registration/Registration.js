@@ -2,6 +2,7 @@ import React from "react";
 import './Registration.scss'
 import '@material-ui/core/TextField'
 import TextField from "@material-ui/core/TextField";
+import FirebaseManager from '../Utils/FirebaseManager'
 import {
   BrowserRouter as Router,
   Link,
@@ -9,28 +10,6 @@ import {
   Switch,
   useHistory,
 } from 'react-router-dom';
-// Firebase App (the core Firebase SDK) is always required and
-// must be listed before other Firebase SDKs
-import { firebase } from '@firebase/app';
-
-// Add the Firebase products that you want to use
-require("firebase/auth");
-require("firebase/firestore");
-
-// Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyBcfxz80OLEXeDWWFyJUw30nSOldxA08_o",
-    authDomain: "culie-88088.firebaseapp.com",
-    databaseURL: "https://culie-88088-default-rtdb.firebaseio.com",
-    projectId: "culie-88088",
-    storageBucket: "culie-88088.appspot.com",
-    messagingSenderId: "876071240737",
-    appId: "1:876071240737:web:0f309f25c48cf37b260f60",
-    measurementId: "G-X8JW6HS7W1"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
 
 function RegistrationPage() {
   return <Createaccount {...createaccountData} />;
@@ -38,6 +17,7 @@ function RegistrationPage() {
 
 export default RegistrationPage;
 
+let firebaseManager = new FirebaseManager()
 var userName = "";
 var userEmail = "";
 var userPassword = "";
@@ -47,14 +27,15 @@ function Createaccount(props) {
   let history = useHistory();
 
     const register = async () =>{
-        let db = firebase.firestore()
-        const cityRef = db.collection('users').doc(userEmail);
-        const doc = await cityRef.set({
-          name: userName,
-          email: userEmail,
-          password: userPassword,
-          completedOnboard: false
-        })
+      let obj = {
+        name: userName,
+        email: userEmail,
+        password: userPassword,
+        completedOnboard: false
+      }
+
+      firebaseManager.registerNewUser(userEmail, obj)
+
     }
 
     const updateName = (value) => {
