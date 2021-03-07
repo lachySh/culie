@@ -1,0 +1,1021 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Mulish:700");
+* {
+  box-sizing: border-box;
+}
+.mulish-bold-blueberry-12px {
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-blueberry-16px {
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-blueberry-18px {
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-granite-gray-14px {
+  color: var(--granite-gray);
+  font-family: "Mulish", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-granite-gray-18px {
+  color: var(--granite-gray);
+  font-family: "Mulish", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-granite-gray-25px {
+  color: var(--granite-gray);
+  font-family: "Mulish", Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-mountain-mist-20px {
+  color: var(--mountain-mist);
+  font-family: "Mulish", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-mountain-mist-40px {
+  color: var(--mountain-mist);
+  font-family: "Mulish", Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-perano-20px {
+  color: var(--perano);
+  font-family: "Mulish", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-silver-15px {
+  color: var(--silver);
+  font-family: "Mulish", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.role-matching {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.role-matching .about-bee {
+  left: 113px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 755px;
+  white-space: nowrap;
+  width: 102px;
+}
+.role-matching .apply-button {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 38px;
+  min-width: 255px;
+}
+.role-matching .apply-now {
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 65px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 127px;
+}
+.role-matching .auto-flex {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  margin-right: -2px;
+  margin-top: 17px;
+  min-width: 898px;
+}
+.role-matching .bee-company {
+  color: rgba(122, 114, 114, 1);
+  font-family: "Mulish", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 58px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  top: 166px;
+  white-space: nowrap;
+  width: 222px;
+}
+.role-matching .benefits {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 235px;
+}
+.role-matching .button-1 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 72.97px;
+  margin-top: 25px;
+  min-width: 256px;
+}
+.role-matching .button-2 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 72.88px;
+  margin-top: 19px;
+  min-width: 256px;
+}
+.role-matching .button-3 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75.16px;
+  margin-top: 10px;
+  min-width: 254px;
+}
+.role-matching .card1 {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px rgba(125, 117, 117, 0.25);
+  height: 842px;
+  left: 0px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  width: 325px;
+}
+.role-matching .company-card {
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 0px 20px 20px rgba(125, 117, 117, 0.25);
+  display: flex;
+  height: 842px;
+  left: 523px;
+  min-width: 325px;
+  position: absolute;
+  top: 217px;
+}
+.role-matching .company-scores {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 45px;
+  min-height: 394px;
+  position: absolute;
+  top: 297px;
+  width: 233px;
+}
+.role-matching .compatibility {
+  align-items: flex-end;
+  display: flex;
+  height: 1145px;
+  left: 0px;
+  min-width: 455px;
+  position: absolute;
+  top: 0px;
+}
+.role-matching .culture {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  min-height: 70px;
+  width: 235px;
+}
+.role-matching .culture-values {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: -8px;
+  min-height: 48px;
+  white-space: nowrap;
+}
+.role-matching .diversity {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 235px;
+}
+.role-matching .dont-agree {
+  align-self: flex-start;
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-left: 66.16px;
+  margin-top: 24px;
+  min-height: 25px;
+  white-space: nowrap;
+}
+.role-matching .ellipse-10 {
+  height: 59px;
+  left: 27px;
+  position: absolute;
+  top: 31px;
+  width: 58px;
+}
+.role-matching .google-i139130139 {
+  left: 62px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+}
+.role-matching .group-39 {
+  align-items: flex-start;
+  display: flex;
+  height: 406px;
+  left: 915px;
+  min-width: 938px;
+  position: absolute;
+  top: 214px;
+}
+.role-matching .icons8-bookmark-1 {
+  align-items: flex-end;
+  border-radius: 20px;
+  display: flex;
+  height: 46px;
+  left: 846px;
+  overflow: hidden;
+  padding: 1.5px 15px;
+  position: absolute;
+  top: 317px;
+  width: 64px;
+}
+.role-matching .icons8-bookmark-1-1 {
+  align-items: flex-end;
+  border-radius: 20px;
+  display: flex;
+  height: 32px;
+  left: 218px;
+  overflow: hidden;
+  padding: 1px 9px;
+  position: absolute;
+  top: 94px;
+  width: 39px;
+}
+.role-matching .image-12 {
+  height: 40px;
+  left: 31px;
+  object-fit: cover;
+  position: absolute;
+  top: 48px;
+  width: 40px;
+}
+.role-matching .image-16 {
+  height: 64px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 62px;
+}
+.role-matching .image-5 {
+  align-self: flex-start;
+  height: 85px;
+  margin-left: 31.08px;
+  object-fit: cover;
+  width: 172px;
+}
+.role-matching .job-card-two {
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  min-height: 316px;
+  padding: 31px 21px;
+  position: absolute;
+  top: 0px;
+  width: 332px;
+}
+.role-matching .job-tag-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 520px;
+  min-width: 141px;
+  position: absolute;
+  top: 40px;
+}
+.role-matching .job-tag-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 362px;
+  min-width: 141px;
+  position: absolute;
+  top: 40px;
+}
+.role-matching .linked-in {
+  left: 122px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  text-decoration: underline;
+  top: 717px;
+  white-space: nowrap;
+  width: 83px;
+}
+.role-matching .lorem-ipsum-is-simpl {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  position: absolute;
+  top: 0px;
+  width: 268px;
+}
+.role-matching .notif-icon {
+  align-items: flex-start;
+  display: flex;
+  height: 124px;
+  left: 0px;
+  min-width: 114px;
+  position: absolute;
+  top: 0px;
+}
+.role-matching .notif-icon-1 {
+  height: 124px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 114px;
+}
+.role-matching .opportunities {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 0px;
+  min-width: 235px;
+}
+.role-matching .otherjobs {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 916px;
+  min-height: 389px;
+  position: absolute;
+  top: 669px;
+  width: 916px;
+}
+.role-matching .overlap-group {
+  height: 1145px;
+  margin-top: -38px;
+  position: relative;
+  width: 1881px;
+}
+.role-matching .overlap-group-1 {
+  height: 56px;
+  position: relative;
+  width: 141px;
+}
+.role-matching .overlap-group-2 {
+  height: 51px;
+  position: relative;
+  width: 258px;
+}
+.role-matching .overlap-group-3 {
+  height: 56px;
+  position: relative;
+  width: 78px;
+}
+.role-matching .overlap-group1 {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px rgba(125, 117, 117, 0.25);
+  height: 842px;
+  position: relative;
+  width: 325px;
+}
+.role-matching .overlap-group1-1 {
+  height: 127px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 279px;
+}
+.role-matching .overlap-group1-2 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 406px;
+  padding: 41.6px 54px;
+  width: 938px;
+}
+.role-matching .overlap-group1-3 {
+  height: 124px;
+  margin-top: -0.04px;
+  position: relative;
+  width: 114px;
+}
+.role-matching .overlap-group10 {
+  border-radius: 20px;
+  height: 316px;
+  margin-left: 56px;
+  position: relative;
+  width: 332px;
+}
+.role-matching .overlap-group11 {
+  border-radius: 20px;
+  height: 316px;
+  margin-left: 68px;
+  position: relative;
+  width: 332px;
+}
+.role-matching .overlap-group2 {
+  height: 68px;
+  margin-bottom: -0px;
+  position: relative;
+  width: 235px;
+}
+.role-matching .overlap-group2-1 {
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 268px;
+}
+.role-matching .overlap-group2-2 {
+  height: 88px;
+  margin-left: 0.16px;
+  position: relative;
+  width: 426px;
+}
+.role-matching .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  border-radius: 10px;
+  display: flex;
+  margin-top: 2px;
+  min-width: 233px;
+}
+.role-matching .overlap-group3-1 {
+  height: 56px;
+  position: relative;
+  width: 77px;
+}
+.role-matching .overlap-group3-2 {
+  border-radius: 15px;
+  height: 49px;
+  position: relative;
+  width: 253px;
+}
+.role-matching .overlap-group3-3 {
+  height: 53px;
+  margin-bottom: -0.21px;
+  position: relative;
+  width: 256px;
+}
+.role-matching .overlap-group4 {
+  height: 66px;
+  position: relative;
+  width: 235px;
+}
+.role-matching .overlap-group5 {
+  height: 68px;
+  position: relative;
+  width: 235px;
+}
+.role-matching .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  border-radius: 10px;
+  display: flex;
+  min-width: 233px;
+}
+.role-matching .overlap-group6-1 {
+  align-self: center;
+  height: 126px;
+  margin-left: 8px;
+  position: relative;
+  width: 268px;
+}
+.role-matching .overlap-group7 {
+  height: 406px;
+  position: relative;
+  width: 944px;
+}
+.role-matching .overlap-group7-1 {
+  height: 127px;
+  position: relative;
+  width: 279px;
+}
+.role-matching .overlap-group8 {
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  min-height: 1098px;
+  padding: 21.9px 15.8px;
+  width: 473px;
+}
+.role-matching .overlap-group9 {
+  height: 124px;
+  position: relative;
+  width: 168px;
+}
+.role-matching .perks {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 235px;
+}
+.role-matching .place {
+  left: 18px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.role-matching .profile-icon {
+  align-items: flex-start;
+  background-size: 100% 100%;
+  display: flex;
+  height: 61px;
+  left: 107px;
+  min-width: 61px;
+  padding: 9.2px 2.1px;
+  position: absolute;
+  top: 31px;
+}
+.role-matching .progress-bar1 {
+  background-color: var(--bon-jour);
+  border-radius: 10px;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 46px;
+  width: 233px;
+}
+.role-matching .progress-bar1-1 {
+  background-color: var(--bon-jour);
+  border-radius: 10px;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 233px;
+}
+.role-matching .rectangle-46 {
+  background-color: rgba(255, 158, 169, 1);
+  border-radius: 10px;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 80px;
+}
+.role-matching .rectangle-47 {
+  background-color: var(--water-leaf);
+  border-radius: 10px;
+  height: 20px;
+  width: 206px;
+}
+.role-matching .rectangle-48 {
+  background-color: var(--water-leaf);
+  border-radius: 10px;
+  height: 20px;
+  width: 186px;
+}
+.role-matching .rectangle-49 {
+  background-color: rgba(255, 158, 169, 0.64);
+  border-radius: 10px;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 80px;
+}
+.role-matching .rectangle-50 {
+  background-color: var(--water-leaf);
+  border-radius: 10px;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 46px;
+  width: 190px;
+}
+.role-matching .rectangle-60 {
+  background-color: var(--hawkes-blue);
+  border-radius: 20px;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 18px;
+  width: 77px;
+}
+.role-matching .rectangle-61 {
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 6px;
+  width: 106px;
+}
+.role-matching .rectangle-61-1 {
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 18px;
+  width: 78px;
+}
+.role-matching .rectangle-62 {
+  background-color: var(--hawkes-blue);
+  border-radius: 20px;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 18px;
+  width: 78px;
+}
+.role-matching .rectangle-74 {
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 222px;
+}
+.role-matching .rectangle-75 {
+  height: 46px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 186px;
+}
+.role-matching .rectangle-75-1 {
+  background-color: var(--hawkes-blue);
+  border-radius: 20px;
+  height: 39px;
+  left: 0px;
+  position: absolute;
+  top: 9px;
+  width: 141px;
+}
+.role-matching .rectangle-78 {
+  background-color: var(--hawkes-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 49px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 253px;
+}
+.role-matching .rectangle-78:hover {
+  transform: scale(1.1);
+}
+.role-matching .rectangle-80 {
+  background-color: var(--soapstone);
+  height: 100%;
+  position: static;
+  width: 100%;
+}
+.role-matching .role-desc {
+  align-items: flex-start;
+  display: flex;
+  height: 406px;
+  left: 0px;
+  min-width: 944px;
+  position: absolute;
+  top: 0px;
+}
+.role-matching .senior-level-i9762 {
+  left: 9px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.role-matching .span {
+  color: rgba(102, 102, 102, 1);
+  line-height: 25px;
+}
+.role-matching .span-1 {
+  color: rgba(158, 175, 255, 1);
+  line-height: 25px;
+}
+.role-matching .span-2 {
+  color: rgba(158, 175, 255, 1);
+  line-height: 30px;
+}
+.role-matching .span1 {
+  color: rgba(82, 113, 255, 1);
+  line-height: 30px;
+}
+.role-matching .tag1 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 0px;
+  min-width: 79px;
+  position: absolute;
+  top: 71px;
+}
+.role-matching .tag2 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 91px;
+  min-width: 80px;
+  position: absolute;
+  top: 71px;
+}
+.role-matching .tag3 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 183px;
+  min-width: 80px;
+  position: absolute;
+  top: 71px;
+}
+.role-matching .text- {
+  left: 19px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.role-matching .text--1 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 79px;
+  white-space: nowrap;
+  width: 217px;
+}
+.role-matching .text-1 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 235px;
+}
+.role-matching .text-1-1 {
+  left: 62px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 217px;
+}
+.role-matching .text-10 {
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 241px;
+}
+.role-matching .text-11 {
+  color: rgba(142, 149, 185, 1);
+  font-family: "Mulish", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 56px;
+  min-height: 56px;
+  white-space: nowrap;
+}
+.role-matching .text-12 {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: 10px;
+  min-height: 56px;
+  min-width: 26px;
+  white-space: nowrap;
+}
+.role-matching .text-13 {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: 10px;
+  margin-left: 58px;
+  min-height: 56px;
+  min-width: 26px;
+  white-space: nowrap;
+}
+.role-matching .text-2 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 235px;
+}
+.role-matching .text-22 {
+  left: 18px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.role-matching .text-3 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Mulish", Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  left: 87px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  top: 78px;
+  white-space: nowrap;
+  width: 163px;
+}
+.role-matching .text-4 {
+  color: transparent;
+  font-family: "Mulish", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 11px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 44px;
+  white-space: nowrap;
+  width: 415px;
+}
+.role-matching .text-5 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 35px;
+  margin-right: 2px;
+  margin-top: 15px;
+  min-height: 124px;
+  width: 817px;
+}
+.role-matching .text-6 {
+  left: 26px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.role-matching .text-7 {
+  align-self: flex-end;
+  color: transparent;
+  font-family: "Mulish", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 40px;
+  margin-top: 94px;
+  min-height: 109px;
+  width: 385px;
+}
+.role-matching .text-8 {
+  left: 16px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 241px;
+}
+.role-matching .text-9 {
+  color: white;
+  font-family: "Mulish", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 17px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+  width: 241px;
+}
+.role-matching .top-icons {
+  align-items: flex-start;
+  display: flex;
+  height: 124px;
+  left: 1651px;
+  min-width: 168px;
+  position: absolute;
+  top: 63px;
+}
+.role-matching .vector {
+  height: 43px;
+  width: 34px;
+}
+.role-matching .vector-1 {
+  height: 30px;
+  width: 21px;
+}
+.role-matching .work-life-balance {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  min-height: 69px;
+  width: 235px;
+}
+.role-matching .work-life-balance-1 {
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-bottom: -8px;
+  min-height: 48px;
+  white-space: nowrap;
+}
+.role-matching .x-product-designer {
+  color: rgba(64, 57, 57, 1);
+  font-family: "Mulish", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  width: 352px;
+}
+.role-matching .x77 {
+  height: 42px;
+  object-fit: cover;
+  width: 56px;
+}
+.role-matching .x78 {
+  height: 75px;
+  margin-left: 14.44px;
+  margin-top: 76px;
+  object-fit: cover;
+  width: 210px;
+}
+.role-matching .your-compatibility {
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 56px;
+  margin-left: 41.77px;
+  margin-top: 145px;
+  min-height: 64px;
+  white-space: nowrap;
+  width: 338px;
+}
+:root {
+  --blueberry: rgba(82, 113, 255, 1);
+  --bon-jour: rgba(228, 223, 223, 1);
+  --granite-gray: rgba(102, 102, 102, 1);
+  --hawkes-blue: rgba(209, 217, 255, 1);
+  --mountain-mist: rgba(150, 150, 150, 1);
+  --perano: rgba(158, 175, 255, 1);
+  --silver: rgba(191, 191, 191, 1);
+  --soapstone: rgba(255, 252, 247, 1);
+  --water-leaf: rgba(161, 241, 224, 0.69);
+}

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="added different companies" />
+    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="added dashboard">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/dashboard/jobs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/jobs.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="onboarding" />
+        <entry key="$PROJECT_DIR$" value="feature/landing_page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +58,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
@@ -73,6 +78,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -95,7 +111,7 @@
       <workItem from="1615029607405" duration="6599000" />
       <workItem from="1615066242307" duration="6538000" />
       <workItem from="1615072931171" duration="3096000" />
-      <workItem from="1615076632977" duration="12879000" />
+      <workItem from="1615076632977" duration="12523000" />
     </task>
     <task id="LOCAL-00001" summary="adding glassdoor scraper">
       <created>1614946894229</created>
@@ -230,14 +246,7 @@
       <option name="project" value="LOCAL" />
       <updated>1615088381093</updated>
     </task>
-    <task id="LOCAL-00020" summary="added different companies">
-      <created>1615089475198</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1615089475198</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +276,6 @@
     <MESSAGE value="commmmit" />
     <MESSAGE value="improving code" />
     <MESSAGE value="added dashboard" />
-    <MESSAGE value="added different companies" />
-    <option name="LAST_COMMIT_MESSAGE" value="added different companies" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dashboard" />
   </component>
 </project>

@@ -1,0 +1,159 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.mulish-bold-black-90px {
+  color: black;
+  font-family: "Mulish", Helvetica;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-blueberry-28px {
+  color: var(--blueberry);
+  font-family: "Mulish", Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-granite-gray-48px {
+  color: var(--granite-gray);
+  font-family: "Mulish", Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-bold-white-25px {
+  color: transparent;
+  font-family: "Mulish", Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.onboarding-1 {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  display: flex;
+  height: 889px;
+  width: 1421px;
+}
+.onboarding-1 .auto-flex {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 862px;
+  width: 664px;
+}
+.onboarding-1 .get-started {
+  align-items: flex-start;
+  display: flex;
+  height: 63px;
+  left: 0px;
+  min-width: 208px;
+  position: absolute;
+  top: 177px;
+}
+.onboarding-1 .get-started-1 {
+  left: 19px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 189px;
+  background-color: transparent;
+  border: none;
+  margin-left: -10px;
+}
+.onboarding-1 .img {
+  height: 74px;
+  object-fit: cover;
+  width: 139px;
+}
+.onboarding-1 .logo {
+  position: absolute;
+  left: 500px;
+  top: -200px;
+  height: 674px;
+  margin-left: 255px;
+  margin-top: 215px;
+  object-fit: cover;
+  width: 502px;
+}
+.onboarding-1 .overlap-group {
+  align-self: flex-start;
+  margin-left: 30px;
+  height: 252px;
+  margin-top: 85px;
+  position: relative;
+  width: 634px;
+  background-color: transparent;
+}
+.onboarding-1 .overlap-group1 {
+  height: 240px;
+  margin-left: 44px;
+  margin-top: 11px;
+  position: relative;
+  width: 482px;
+}
+.onboarding-1 .overlap-group2 {
+  height: 63px;
+  position: relative;
+  width: 208px;
+}
+.onboarding-1 .rectangle-35 {
+  background-color: var(--hawkes-blue);
+  border-radius: 15px;
+  height: 63px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 200px;
+}
+.onboarding-1 .span {
+  color: rgba(171, 166, 166, 1);
+  font-family: "Mulish", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.onboarding-1 .span-1 {
+  color: rgba(82, 113, 255, 1);
+  font-family: "Mulish", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.onboarding-1 .text-1 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  top: 0px;
+  width: 482px;
+}
+.onboarding-1 .text-2 {
+  left: 14px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 118px;
+  width: 620px;
+}
+.onboarding-1 .text-3 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  width: 341px;
+}
+:root {
+  --blueberry: rgba(82, 113, 255, 1);
+  --granite-gray: rgba(102, 102, 102, 1);
+  --hawkes-blue: rgba(209, 217, 255, 1);
+  --soapstone: rgba(255, 252, 247, 1);
+}
