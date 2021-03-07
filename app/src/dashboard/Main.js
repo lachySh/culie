@@ -2,6 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import {Card, Col, Container, Row} from "react-bootstrap";
 import Icon from "./Icon";
+import Savedicon from "./Savedicon";
+import atlassian from "../assets/dashboard/logos/atlassian-logo.png";
+import auspost from "../assets/dashboard/logos/aus-post.png";
+import google from "../assets/dashboard/logos/google-icon.png";
+import medipass from "../assets/dashboard/logos/Medipass.png";
+import pwc from "../assets/dashboard/logos/pwc.png";
+import telstra from "../assets/dashboard/logos/telstra-icon.png";
+import xero from "../assets/dashboard/logos/xero-logo.png";
+
 const Main = () => {
     return (
         <Box>
@@ -22,12 +31,68 @@ const Main = () => {
                         Jobs for you:
 
                     </Subsubtitle>
+                    <Iconwrapper>
+                        <Row>
+                            {
+                                [1,2,3,3].map((item) => {
+                                    return (
+                                        <Col md="3">
+                                            <Icon img={google}
+                                                  role = "Product Designer"
+                                                  company="Google"
+                                                  tag1 = "Culture"
+                                                  tag2="diverse"
+                                                  tag3="remote"
+                                                  description="
+As a product designer at Google, design solutions to complex problems in the form of consumer products.
+                              "
 
-                    <Icon>
+                                            />
+                                        </Col>
+
+                                    )
+
+                                })
+
+                            }
+
+                        </Row>
+
+                    </Iconwrapper>
 
 
-                    </Icon>
+                <Subsubtitle>
+                    Your saved Jobs
 
+                </Subsubtitle>
+                <Iconwrapper>
+                    <Row>
+                        {
+                            [1,2,3,3].map((item) => {
+                                return (
+                                    <Col md="3">
+                                        <Savedicon
+                                            img={google}
+                                            role = "Product Designer"
+                                            company="Google"
+                                            description="
+As a product designer at Google, design solutions to complex problems in the form of consumer products.
+                              "
+                                            days="4"
+
+                                        />
+                                    </Col>
+
+                                )
+
+                            })
+
+                        }
+
+                    </Row>
+
+
+                </Iconwrapper>
 
             </Container>
 
@@ -40,7 +105,7 @@ const Box = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  padding-left:100px;
+  padding-left:2%;
   h1 {
     font-size: 65px;
     font-weight: 900;
@@ -67,7 +132,11 @@ const Subtitle = styled.div`
 
 
 `
+const Iconwrapper = styled.div`
+  height: 250px;
 
+
+`
 const Welcome = styled.div`
 
   padding-top: 50px;
@@ -88,7 +157,7 @@ const Welcome = styled.div`
 
 const Subsubtitle = styled.div`
 
-  padding-top: 25px;
+  padding-top: 16px;
 
 
   font-family: Mulish;

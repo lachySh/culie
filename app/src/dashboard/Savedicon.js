@@ -13,15 +13,10 @@ const Icon = (props) => {
                 <Subtitle>
                     {props.company}
                 </Subtitle>
-                <Tag>
-                    {props.tag1}
-                    </Tag>
-                <Tag2>
-                    {props.tag2}
-                </Tag2>
-                <Tag3>
-                    {props.tag3}
-                </Tag3>
+                <Closes>
+                    Closes in {props.days} days
+                </Closes>
+
                 <Description>
                     {props.description}
 
@@ -80,6 +75,25 @@ const Learn = styled.div`
   text-decoration-line: underline;
 
   color: #9EB0FF;
+
+`
+const Closes = styled.div`
+  position: absolute;
+  width: 214.99px;
+  height: 44.8px;
+  left: 25px;
+  top: 60px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 56px;
+  /* or 280% */
+
+
+  color: #9EB0FF;
+
 
 `
 const Tag = styled.div`

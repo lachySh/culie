@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="improving code">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/culture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/Google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/Medipass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/atlassian-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/aus-post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/google-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/medipass-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/pwc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/telstra-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/xero-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/dashboard/Savedicon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/dashboard/jobs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/dashboard/savedjobs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Roleselection.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Roleselection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +84,11 @@
       <recent name="$PROJECT_DIR$/app/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/assets/dashboard/logos" />
       <recent name="$PROJECT_DIR$/app/src/assets/dashboard" />
       <recent name="$PROJECT_DIR$/app/src/assets" />
       <recent name="$PROJECT_DIR$/app/src/assets/onboarding/buttons" />
       <recent name="$PROJECT_DIR$/app/src/assets/onboarding" />
-      <recent name="$PROJECT_DIR$/app/src/assets/landing" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +125,7 @@
       <workItem from="1615029607405" duration="6599000" />
       <workItem from="1615066242307" duration="6538000" />
       <workItem from="1615072931171" duration="3096000" />
-      <workItem from="1615076632977" duration="7499000" />
+      <workItem from="1615076632977" duration="11474000" />
     </task>
     <task id="LOCAL-00001" summary="adding glassdoor scraper">
       <created>1614946894229</created>
@@ -233,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615083551538</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="improving code">
+      <created>1615084226687</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615084226687</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
