@@ -20,7 +20,6 @@ class Description extends React.Component {
                 </Subtitle>
             </LeftContainer>
 
-
         )
 
 

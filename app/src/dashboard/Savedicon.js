@@ -1,11 +1,17 @@
 import styled from 'styled-components'
 import google from '../assets/dashboard/logos/Google.png'
 import save from '../assets/dashboard/Vector.png'
+import {Link, useHistory} from "react-router-dom";
 const Icon = (props) => {
+    const history = useHistory();
+    const goto = () =>  {
+        history.push(
+            '/match-backup')
+    }
     return (
 
 
-            <Card>
+            <Card onclick = {() => goto()}>
                 <Image src={props.img}/>
                 <Title>
                     {props.role}
@@ -23,7 +29,9 @@ const Icon = (props) => {
                 </Description>
                 <Learn>
 
-                   Learn more
+                    <Link to="/match-backup">
+                        Learn more
+                    </Link>
                 </Learn>
 
 
@@ -46,7 +54,7 @@ const Vector = styled.img`
   border-radius: 20px;
 
 `
-const Card = styled.div`
+const Card = styled.a`
   position: absolute;
   width: 250px;
   height: 250px;
