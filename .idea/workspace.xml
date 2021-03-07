@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="added different companies" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="onboarding" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pKzmQmOpn3Mq2cmfnSww2UeB2P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/dashboard" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/dashboard" />
+      <recent name="$PROJECT_DIR$/app/src/onboarding" />
+      <recent name="$PROJECT_DIR$/app/src/assets/onboarding" />
+      <recent name="$PROJECT_DIR$/app/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/assets/dashboard/logos" />
+      <recent name="$PROJECT_DIR$/app/src/assets/dashboard" />
+      <recent name="$PROJECT_DIR$/app/src/assets" />
+      <recent name="$PROJECT_DIR$/app/src/assets/onboarding/buttons" />
+      <recent name="$PROJECT_DIR$/app/src/assets/onboarding" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="" />
+      <created>1614946727898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614946727898</updated>
+      <workItem from="1614946729100" duration="749000" />
+      <workItem from="1614984260360" duration="1844000" />
+      <workItem from="1614986306346" duration="4000" />
+      <workItem from="1614986321005" duration="26301000" />
+      <workItem from="1615029607405" duration="6599000" />
+      <workItem from="1615066242307" duration="6538000" />
+      <workItem from="1615072931171" duration="3096000" />
+      <workItem from="1615076632977" duration="12879000" />
+    </task>
+    <task id="LOCAL-00001" summary="adding glassdoor scraper">
+      <created>1614946894229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614946894229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding glassdoor scraper">
+      <created>1614947060219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614947060219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding glassdoor scraper">
+      <created>1614947439450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614947439450</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added landing page">
+      <created>1614993448347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614993448347</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added landing page">
+      <created>1614994461217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614994461217</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added join button">
+      <created>1614994969916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614994969916</updated>
+    </task>
+    <task id="LOCAL-00007" summary="boop">
+      <created>1614995128134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614995128134</updated>
+    </task>
+    <task id="LOCAL-00008" summary="boop">
+      <created>1615011628107</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615011628107</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added onboarding page">
+      <created>1615013405874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615013405874</updated>
+    </task>
+    <task id="LOCAL-00010" summary="onboarding oooo">
+      <created>1615014227482</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615014227482</updated>
+    </task>
+    <task id="LOCAL-00011" summary="onboarding oooo">
+      <created>1615025240915</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025240915</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fiinished rank page but at what cost?">
+      <created>1615069756584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615069756584</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finsihed preferences page">
+      <created>1615072834990</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615072834990</updated>
+    </task>
+    <task id="LOCAL-00014" summary="improving code">
+      <created>1615075847691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615075847691</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commmmit">
+      <created>1615076672197</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615076672197</updated>
+    </task>
+    <task id="LOCAL-00016" summary="improving code">
+      <created>1615083133937</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615083133937</updated>
+    </task>
+    <task id="LOCAL-00017" summary="improving code">
+      <created>1615083551538</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615083551538</updated>
+    </task>
+    <task id="LOCAL-00018" summary="improving code">
+      <created>1615084226687</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615084226687</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added dashboard">
+      <created>1615088381093</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615088381093</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added different companies">
+      <created>1615089475198</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615089475198</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding glassdoor scraper" />
+    <MESSAGE value="added landing page" />
+    <MESSAGE value="added join button" />
+    <MESSAGE value="boop" />
+    <MESSAGE value="added onboarding page" />
+    <MESSAGE value="onboarding oooo" />
+    <MESSAGE value="fiinished rank page but at what cost?" />
+    <MESSAGE value="finsihed preferences page" />
+    <MESSAGE value="commmmit" />
+    <MESSAGE value="improving code" />
+    <MESSAGE value="added dashboard" />
+    <MESSAGE value="added different companies" />
+    <option name="LAST_COMMIT_MESSAGE" value="added different companies" />
+  </component>
+</project>
