@@ -38,12 +38,16 @@ code {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  font-family: Mulish;
+  font-style: normal;
 }
 
 .btn-custom:hover {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
+  font-family: Mulish;
+  font-style: normal;
 }
 
 .btn-c {

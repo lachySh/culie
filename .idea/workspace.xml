@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="quickchange">
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/role-matching.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Backup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Backup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Roleselection.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Roleselection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/landing_page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,27 +69,14 @@
       <recent name="$PROJECT_DIR$/app/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/assets/dashboard/logos" />
       <recent name="$PROJECT_DIR$/app/src/assets/dashboard" />
       <recent name="$PROJECT_DIR$/app/src/assets" />
-      <recent name="$PROJECT_DIR$/app/src/dashboard" />
-      <recent name="$PROJECT_DIR$/app/src/assets/dashboard/logos" />
       <recent name="$PROJECT_DIR$/app/src/assets/onboarding/buttons" />
+      <recent name="$PROJECT_DIR$/app/src/assets/onboarding" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -113,6 +100,7 @@
       <workItem from="1615066242307" duration="6538000" />
       <workItem from="1615072931171" duration="3096000" />
       <workItem from="1615076632977" duration="12523000" />
+      <workItem from="1615095572416" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="adding glassdoor scraper">
       <created>1614946894229</created>
@@ -254,14 +242,7 @@
       <option name="project" value="LOCAL" />
       <updated>1615090309462</updated>
     </task>
-    <task id="LOCAL-00021" summary="quickchange">
-      <created>1615090344348</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1615090344348</updated>
-    </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

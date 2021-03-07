@@ -77,8 +77,11 @@ class Roleselection extends React.Component {
                             this.roles[this.state.role].map((item,index) => {
                                 return <Col className="p-1 m-0" >
                                     <a href="#" id={item} type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true"  >
+                                        <Text>
 
-                                        {item}
+                                            {item}
+
+                                        </Text>
 
                                     </a>
 
@@ -145,7 +148,10 @@ const BContainer = styled.div`
 
 `
 
-
+const Text = styled.div`
+  font-family: Mulish;
+  font-style: normal;
+`
 
 
 export default Roleselection
