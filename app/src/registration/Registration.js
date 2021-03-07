@@ -2,6 +2,14 @@ import React from "react";
 import './Registration.scss'
 import '@material-ui/core/TextField'
 import TextField from "@material-ui/core/TextField";
+import FirebaseManager from '../Utils/FirebaseManager'
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch,
+  useHistory,
+} from 'react-router-dom';
 
 function RegistrationPage() {
   return <Createaccount {...createaccountData} />;
@@ -9,8 +17,39 @@ function RegistrationPage() {
 
 export default RegistrationPage;
 
+let firebaseManager = new FirebaseManager()
+var userName = "";
+var userEmail = "";
+var userPassword = "";
+
 
 function Createaccount(props) {
+  let history = useHistory();
+
+    const register = async () =>{
+      let obj = {
+        name: userName,
+        email: userEmail,
+        password: userPassword,
+        completedOnboard: false
+      }
+
+      firebaseManager.registerNewUser(userEmail, obj)
+
+    }
+
+    const updateName = (value) => {
+      userName = value.target.value
+    }
+
+    const updateEmail = (value) => {
+      userEmail = value.target.value
+    }
+
+    const updatePassword = (value) => {
+      userPassword = value.target.value
+    }
+
   const {
     culieLogo,
     layer2,
@@ -36,19 +75,19 @@ function Createaccount(props) {
         <div className="your-name">
           <div className="your-name-1 mulish-bold-black-23px your-name">{yourName}</div>
           <div className="rectangle-34" src={rectangle34}>
-          <TextField className="passwordInput" inputProps={{type: "password"}, {style: {width: "460px", paddingLeft: "15px", paddingTop: "15px"}}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField>
+          <TextField className="passwordInput" onChange={updateName} inputProps={{type: "password"}, {style: {width: "460px", paddingLeft: "15px", paddingTop: "15px"}}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField>
             </div>
         </div>
         <div className="email-address">
           <div className="e-mail-address mulish-bold-black-23px">{eMailAddress}</div>
           <div className="rectangle-37">
-          <TextField className="passwordInput" inputProps={{type: "password"}, {style: {width: "460px", paddingLeft: "15px", paddingTop: "15px"}}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField>
+          <TextField className="passwordInput" onChange={updateEmail} inputProps={{type: "password"}, {style: {width: "460px", paddingLeft: "15px", paddingTop: "15px"}}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField>
           </div>
         </div>
         <div className="auto-flex1">
           <div className="password">
             <div className="password-1 mulish-bold-black-23px">{password}</div>
-            <div className="rectangle-35"><TextField inputProps={{style: {width: "200px", paddingLeft: "15px", paddingTop: "15px"}, type: "password"}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField></div>
+            <div className="rectangle-35"><TextField onChange={updatePassword} inputProps={{style: {width: "200px", paddingLeft: "15px", paddingTop: "15px"}, type: "password"}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField></div>
           </div>
           <div className="re-enter">
             <div className="re-enter-password mulish-bold-black-23px">{reEnterPassword}</div>
@@ -56,9 +95,9 @@ function Createaccount(props) {
           </div>
         </div>
         <div className="sign-up">
-          <div className="overlap-group">
+          <button className="overlap-group" onClick={register}>
             <div className="sign-up-1 mulish-bold-bon-jour-23px">{signUp}</div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
@@ -75,4 +114,3 @@ const createaccountData = {
     reEnterPassword: "Re-enter Password",
     signUp: "Sign Up",
 };
-
