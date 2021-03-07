@@ -25,7 +25,7 @@ class Dashboard extends React.Component {
                 <Container>
                     <Wrapper>
                         <Sidebar />
-                        <Main />
+                        <Main state={this.state}/>
                     </Wrapper>
                 </Container>
 

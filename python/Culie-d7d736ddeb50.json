@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "culie-88088",
+  "private_key_id": "d7d736ddeb50f317b6cb1a55b16092b0acd02888",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCUP66s6lWuZ0Ac\n1WALzj5xGwXaTIhTIbfAgxUPRXugIoC4qfO8hHAz3LW6T916INxFn9BQJImHA0KJ\n5MUYNWPoZqZc36fsuqczjhvFNkEwbmqWOYNjRsqmVP9Ecj2vb1kvHrBkQPJAlpLi\ng2+7hpnTj9s2Bm+DI+6u7Pr+wHzkfWvtDZgLlzBkORSVJqH1m0H9d5OSqW4zpoOU\n8OVbEW95s6F2XuW5QqTEQAm7dnaWbaVHi+9y3pYY0PZCcUEhd+KVgUgxJ4VPq3ZM\nWxVeBztn5p8E+zJ1f9D7nBoRIURXcClAbZ9UqH+7b9WtAqV1WXpbzUByb4qcCrUh\nygKql76jAgMBAAECggEANC5mMX8aQZUeQAfrEry5xd4ZJUmjAn/vyddZ5lIyvZ7n\naBiKLmT/iYG6haXu8zn1zpv+GveBYQCIvzjDF05TqE3ZaP9ggDcC+2ad58C9GWsE\nIXSFBsC4O+vXHiSICeRLpAZNWDx0CL/3W7uf7IXoR0tvgYiqX6KaNQA9KMZgL5xc\n5/tY5pZdVIRe648dbATacrtnsZLf7LHG63tBVnS5pqNYfsKyhi7fEGJ4QdU5pMyo\nxnoRyQMz3DG0x4wWYSXviMlxkc4x+Z3z5p5kHYxEvOjpBiT8lkQkL2DxpNudBhfz\nNT7X3b8WJqUnBE/9Kjuik4KvDWN/Q+wrgrogL+7twQKBgQDDGgscxiTpOKkdjlEL\neSzVrDlxZrdkjRhJCApo/06C2sixFJ6XTYUAcQT9+mdZstw5rP/1EkfEHbPQ6CvB\n1nEsGo0L8UHqMxWr2PNx9GqzJuysADzWbQpZbbK/mPaJvRFhEMC2yP5PkqynpJKs\nBGEKeq5qkyu9PidOk7GVen2uaQKBgQDChcR1TS2yEyxQhMq+5Bov3LJ0PSP123M+\nWqBLmUOFuwzc6lmHL8D1FGastfHo4pw78BmgDYYH7AxPpJJQ2M5UTXzBHmJ6k1Sb\n1Z2WOq+6W4xIhm4o8qewmfklIuxW4gzSms+yvNxwdjtINQQ45SGqtM4EK61PqMgE\nmPPzF1d7KwKBgQCWmVfSkjCTxiTkp6JvlM3C8fo1SvBtMWx5kzdV7R0RbQhViHES\nocf0m0kbM1rrpmDQNHYvGjlDbRoMO+rq6TjarnQJr+UNfvlPeVwRrnVebMFr05Mi\ngXDnrwG3W7+Setsbbe8UKPoFOlcD4MlG9uphSGmx4oB0x7FXujHuDGtPYQKBgEWU\n+hCHugfQCfMHfUrJZ4ClboRb9ogUpuWwH1TLjzbAETrY7YuJDnncgVnYf58xqHdc\nTJ5PGBmvWzwF/3zCARRw32ZpSwrTttlDkWpStddwtf6fb7pgCpIGkfOxyV7O341a\naV9jZWspL82FgWwksmVQ5bziLs2m712NpP3Y5KcfAoGAYLd8/gJYHO1vh78DduoR\nh6zF01tgeLSnOVocpW9oQ91D7XuMwlsaWzOG3smu/carNQ8q3+4sVMx0mhrNSq/1\n2v3ppA0pAlm8tbKNuH+92asYF/x6Cwjaobj4pHqN2EJTVsxyYFe73py6wqdVU7lT\nfNFiYXpqpFqlNQbWpYvNMKE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firestore-python@culie-88088.iam.gserviceaccount.com",
+  "client_id": "114216336915245935237",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firestore-python%40culie-88088.iam.gserviceaccount.com"
+}

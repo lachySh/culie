@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="improving code">
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/Vector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/culture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/Google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/Medipass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/atlassian-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/aus-post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/google-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/medipass-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/pwc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/telstra-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/logos/xero-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/Savedicon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/jobs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/savedjobs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Roleselection.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Roleselection.js" afterDir="false" />
+    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="quickchange">
+      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Preferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Preferences.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,17 +75,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -125,7 +97,7 @@
       <workItem from="1615029607405" duration="6599000" />
       <workItem from="1615066242307" duration="6538000" />
       <workItem from="1615072931171" duration="3096000" />
-      <workItem from="1615076632977" duration="11474000" />
+      <workItem from="1615076632977" duration="12523000" />
     </task>
     <task id="LOCAL-00001" summary="adding glassdoor scraper">
       <created>1614946894229</created>
@@ -253,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615084226687</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added dashboard">
+      <created>1615088381093</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615088381093</updated>
+    </task>
+    <task id="LOCAL-00020" summary="quickchange">
+      <created>1615090309462</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615090309462</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +268,8 @@
     <MESSAGE value="finsihed preferences page" />
     <MESSAGE value="commmmit" />
     <MESSAGE value="improving code" />
-    <option name="LAST_COMMIT_MESSAGE" value="improving code" />
+    <MESSAGE value="added dashboard" />
+    <MESSAGE value="quickchange" />
+    <option name="LAST_COMMIT_MESSAGE" value="quickchange" />
   </component>
 </project>

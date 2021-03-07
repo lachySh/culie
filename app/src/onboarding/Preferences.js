@@ -114,7 +114,7 @@ const Onboarding = () => {
                                     <Donebox>
 
                                         <Done>
-                                            <Link to="/onboarding/4">Next</Link>
+                                            <Link to="/dashboard">Next</Link>
                                         </Done>
 
                                     </Donebox>
