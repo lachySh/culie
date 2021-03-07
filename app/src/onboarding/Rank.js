@@ -57,13 +57,12 @@ const Rank = () => {
                             <Ranker handler = {setState} name="Diversity" color="#375AFB"/>
 
                             <Ranker handler = {setState} name="Perks" color="#375AFB"/>
-                            <Link to="/onboarding/3"/>
                             <Rectangle>
 
                                 <Donebox>
 
                                     <Done>
-                                        <Link to="/react">I'm done</Link>
+                                        <Link to="/onboarding/2">I'm done</Link>
                                     </Done>
 
                                 </Donebox>

@@ -26,7 +26,17 @@ const Roles = () => {
 
 
                             <Roleselection/>
+                            <Rectangle>
 
+                                <Donebox>
+
+                                    <Done>
+                                        <Link to="/onboarding/3">Next</Link>
+                                    </Done>
+
+                                </Donebox>
+
+                            </Rectangle>
 
                         </Col>
 
@@ -49,6 +59,34 @@ const Roles = () => {
 }
 
 
+const Donebox = styled.div`
+  text-align: right;
+
+`
+
+const Rectangle = styled.div`
+  border: none;
+  margin: 0 auto;
+
+  border-radius: 20px;
+  width: 430px;
+  height: 50px;
+  `
+const Done = styled.a`
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height:48px;
+  /* identical to box height, or 156% */
+
+  text-decoration-line: underline;
+
+  color: #9EB0FF;
+  text-align:right;
+  padding-right:15px 
+
+`
 
 
 const OuterContainer = styled.div`

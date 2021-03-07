@@ -31,6 +31,10 @@ function App() {
                         exact
                         path="/onboarding/3"
                         component={Preferences}/>
+
+
+
+
             </Switch>
 
 

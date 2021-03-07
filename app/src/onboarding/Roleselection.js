@@ -3,6 +3,35 @@ import styled from "styled-components";
 import {Col, Row} from "react-bootstrap";
 import '../index.css'
 class Roleselection extends React.Component {
+    constructor(props){
+       super(props)
+        this.state = {
+           role:"",
+            showDiv:true
+        }
+        this.roles = {
+            'Development': ["Front-end", "Backend", "Systems"],
+            'Design': ["UI", "UX", "Market research"],
+            'Engineering': ["Platforms", "Cloud",],
+            'Data': ["Data engineering", "Data science", "Big data"],
+            'Admin': ["Networking", "Systems"],
+            'Product': ["Product owner", "Product design", "Marketing"],
+            'People': ["Human resourcing", "Scrum Master", "Project Management"],
+            "":[]
+
+        }
+
+
+    }
+
+
+    setRole = (role) => {
+        this.setState({
+            role:role
+        })
+    }
+
+
 
     render(){
         const toproles = ['Development', 'Design', 'Engineering', 'Data','Admin', 'Product', 'People']
@@ -18,12 +47,12 @@ class Roleselection extends React.Component {
                         {
                             toproles.map((item,index) => {
                                 return <Col md="3" className="p-1 m-0" >
-                                    <button type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true">
+                                    <a href="#" id={item} type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true"  onClick={() => this.setRole(item)}>
 
 
                                         {item}
 
-                                    </button>
+                                    </a>
 
                                 </Col>
 
@@ -41,6 +70,34 @@ class Roleselection extends React.Component {
                     Select your relevant roles
 
                 </Title>
+                <Row className="pb-3">
+
+                    <Row>
+                        {
+                            this.roles[this.state.role].map((item,index) => {
+                                return <Col className="p-1 m-0" >
+                                    <a href="#" id={item} type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true" >
+
+
+                                        {item}
+
+                                    </a>
+
+                                </Col>
+
+                            })
+
+
+                        }
+
+                    </Row>
+
+
+
+                </Row>
+                {this.state.showDiv && <Divide/>}
+
+
 
 
 
@@ -52,6 +109,13 @@ class Roleselection extends React.Component {
 
 
 }
+const Divide = styled.div`
+  padding-top: 50px;
+
+
+`
+
+
 const Title = styled.div`
   font-family: Mulish;
   font-style: normal;
