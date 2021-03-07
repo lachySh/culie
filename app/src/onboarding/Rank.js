@@ -62,7 +62,7 @@ const Rank = () => {
                                 <Donebox>
 
                                     <Done>
-                                        <Link to="/onboarding/2">I'm done</Link>
+                                        <Link to="/onboarding/2">I'm done {'>'}</Link>
                                     </Done>
 
                                 </Donebox>
@@ -87,7 +87,7 @@ const Rank = () => {
 
 }
 const Donebox = styled.div`
-  padding-top: 80px;
+  padding-top: 20px;
   text-align: right;
 
 `
@@ -96,7 +96,8 @@ const Points = styled.div`
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height:48px;
+  line-height: 0px;
+  margin-top: -70px;
   /* identical to box height, or 156% */
   text-align:right;
 
@@ -110,7 +111,7 @@ const Rectangle = styled.div`
 
   border-radius: 20px;
   width: 430px;
-  height: 50px;
+  height: 20px;
   `
 const Done = styled.a`
   font-family: Mulish;
