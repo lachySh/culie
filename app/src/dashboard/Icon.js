@@ -1,14 +1,18 @@
 import styled from 'styled-components'
 import google from '../assets/dashboard/logos/Google.png'
 import save from '../assets/dashboard/Vector.png'
+import {Link} from "react-router-dom";
 const Icon = (props) => {
     return (
 
 
             <Card>
                 <Image src={props.img}/>
+
+
                 <Title>
-                    {props.role}
+                        {props.role}
+
                 </Title>
                 <Subtitle>
                     {props.company}
@@ -28,7 +32,9 @@ const Icon = (props) => {
                 </Description>
                 <Learn>
 
-                   Learn more
+                    <Link to="/match-backup">
+                        Learn more
+                    </Link>
                 </Learn>
 
 

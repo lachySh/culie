@@ -12,6 +12,8 @@ import Preferences from "./onboarding/Preferences";
 import Roles from "./onboarding/Roles";
 import Dashboard from "./dashboard/Dashboard";
 import Rolematching from "./role-match/role-match.js";
+import Compatability from "./dashboard/Compatability";
+import Backup from "./dashboard/Backup";
 
 function App() {
   return (
@@ -55,8 +57,14 @@ function App() {
         <Route
                 path="/role-match"
                 component={Rolematching} />
-
+              <Route
+                  path="/match"
+                  component={Compatability}/>
+              <Route
+                  path="/match-backup"
+                  component={Backup}/>
           </Switch>
+
 
   );
 }

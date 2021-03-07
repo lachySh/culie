@@ -31,10 +31,12 @@ function Createaccount(props) {
         name: userName,
         email: userEmail,
         password: userPassword,
-        completedOnboard: false
+        completedOnboarding: false
       }
 
-      firebaseManager.registerNewUser(userEmail, obj)
+      await firebaseManager.registerNewUser(userEmail, obj)
+
+      FirebaseManager.userName = await firebaseManager.getName(userEmail)
 
       history.push('/onboarding/1');
 

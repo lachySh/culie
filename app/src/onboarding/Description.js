@@ -20,7 +20,6 @@ class Description extends React.Component {
                 </Subtitle>
             </LeftContainer>
 
-
         )
 
 
@@ -68,7 +67,7 @@ const Subtitle = styled.p`
 
 
 const LeftContainer = styled.div`
-    padding-top:65%;
+    padding-top:45%;
     padding-left:10%;
     padding-bottom:35%;
 
