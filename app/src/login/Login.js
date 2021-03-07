@@ -71,7 +71,7 @@ function Email(props) {
 
   return (
     <div className={`email ${className || ""}`}>
-      <div id="emailField"  className="e-mail-address mulish-bold-black-23px">{eMailAddress}</div>
+      <div id="emailField" className="e-mail-address mulish-bold-black-23px">{eMailAddress}</div>
       <div className="rectangle-3">
       <TextField className="passwordInput" onChange={updateEmail} inputProps={{type: "password"}, {style: {width: "460px", paddingLeft: "15px", paddingTop: "15px"}}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField>
       </div>
@@ -89,7 +89,7 @@ function Password(props) {
 
   return (
     <div className={`email ${className || ""}`}>
-      <div id="passwordField" className="e-mail-address mulish-bold-black-23px">{eMailAddress}</div>
+      <div id="passwordField" className="password2 mulish-bold-black-23px">{eMailAddress}</div>
       <div className="rectangle-3">
       <TextField className="passwordInput" onChange={updatePassword} inputProps={{style: {width: "460px", paddingLeft: "15px", paddingTop: "15px"}, type: "password"}} InputProps={{style: {fontSize: 25},disableUnderline: true}}></TextField>
       </div>
