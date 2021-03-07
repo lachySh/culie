@@ -37,12 +37,11 @@ class FirebaseManager {
             return false
         }
         const ref = this.db.collection('users').doc(uid);
-        var doc = {}
-        if (!ref.exists) {
-          return false
+        const doc = await ref.get();
+        if (!doc.exists) {
+          console.log('No such document!');
         } else {
-            doc = await ref.get();
-            return doc.data().password;
+          return doc.data().password;
         }
     }
 
