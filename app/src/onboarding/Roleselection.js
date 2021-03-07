@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Col, Row} from "react-bootstrap";
+import {Button, Col, Row} from "react-bootstrap";
 import '../index.css'
 class Roleselection extends React.Component {
     constructor(props){
@@ -27,10 +27,10 @@ class Roleselection extends React.Component {
 
     setRole = (role) => {
         this.setState({
-            role:role
+            ...this.state,
+            role:role,
         })
     }
-
 
 
     render(){
@@ -76,7 +76,7 @@ class Roleselection extends React.Component {
                         {
                             this.roles[this.state.role].map((item,index) => {
                                 return <Col className="p-1 m-0" >
-                                    <a href="#" id={item} type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true" >
+                                    <a href="#" id={item} type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true"  >
 
 
                                         {item}
