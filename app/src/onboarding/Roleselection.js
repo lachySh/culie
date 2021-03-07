@@ -78,7 +78,6 @@ class Roleselection extends React.Component {
                                 return <Col className="p-1 m-0" >
                                     <a href="#" id={item} type={item} className="btn btn-custom m-3 btn-block " aria-pressed="true"  >
 
-
                                         {item}
 
                                     </a>

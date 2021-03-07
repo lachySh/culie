@@ -1,0 +1,19 @@
+{
+  "jobs" : [
+    {
+      "title": "Product Designer",
+      "company": "Google",
+      "days" : 4,
+      "description": "As a product designer at Google, design solutions to complex problems in the form of consumer products.",
+      "link": "www.google.com",
+      "img" : "google.png"
+    },
+    {
+      "title": "UX Researcher"
+
+    }
+
+
+
+  ]
+}
