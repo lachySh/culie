@@ -4,6 +4,13 @@ import '@material-ui/core/TextField'
 import TextField from "@material-ui/core/TextField";
 import FirebaseManager from "../Utils/FirebaseManager";
 import { firestore } from "firebase-admin";
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch,
+  useHistory,
+} from 'react-router-dom';
 
 let firebaseManager = new FirebaseManager()
 
@@ -27,13 +34,14 @@ export default LoginPage;
 
 function Login(props) {
   const { image7, login, signIn, emailProps, email2Props } = props;
+  let history = useHistory();
 
   const loginUser = async () => {
     let fbPass = await firebaseManager.getPasswordForUID(userEmail)
 
     if (fbPass) {
       if (userPassword == fbPass) {
-        console.log("IN")
+        history.push('/introduction');
       } else {
         document.getElementById("passwordField").style.color = "red"
       }

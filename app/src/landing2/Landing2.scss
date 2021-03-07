@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+}
 .mulish-bold-black-90px {
   color: black;
   font-family: "Mulish", Helvetica;
@@ -34,15 +37,13 @@
   align-items: flex-start;
   background-color: var(--soapstone);
   display: flex;
-  height: 1177px;
-  padding: 0 160px;
-  width: 50%;
+  height: 889px;
+  width: 1421px;
 }
 .onboarding-1 .auto-flex {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 73px;
   min-height: 862px;
   width: 664px;
 }
@@ -63,35 +64,40 @@
   top: 4px;
   white-space: nowrap;
   width: 189px;
+  background-color: transparent;
+  border: none;
+  margin-left: -10px;
 }
 .onboarding-1 .img {
   height: 74px;
   object-fit: cover;
   width: 139px;
-  background-image: "./image1.png";
 }
 .onboarding-1 .logo {
+  position: absolute;
+  left: 500px;
+  top: -200px;
   height: 674px;
-  margin-left: 23px;
-  margin-top: 288px;
+  margin-left: 255px;
+  margin-top: 215px;
   object-fit: cover;
   width: 502px;
-  right: 300px;
 }
 .onboarding-1 .overlap-group {
+  align-self: flex-start;
+  margin-left: 30px;
+  height: 252px;
+  margin-top: 85px;
+  position: relative;
+  width: 634px;
+  background-color: transparent;
+}
+.onboarding-1 .overlap-group1 {
   height: 240px;
   margin-left: 44px;
   margin-top: 11px;
   position: relative;
   width: 482px;
-}
-.onboarding-1 .overlap-group1 {
-  align-self: flex-start;
-  left: 40px;
-  height: 252px;
-  margin-top: 285px;
-  position: relative;
-  width: 634px;
 }
 .onboarding-1 .overlap-group2 {
   height: 63px;
@@ -130,8 +136,7 @@
   width: 482px;
 }
 .onboarding-1 .text-2 {
-  text-align: left;
-  left: 0px;
+  left: 14px;
   letter-spacing: 0px;
   line-height: 56px;
   position: absolute;
@@ -147,8 +152,8 @@
   width: 341px;
 }
 :root {
-  --blueberry: rgb(250, 251, 252);
+  --blueberry: rgba(82, 113, 255, 1);
   --granite-gray: rgba(102, 102, 102, 1);
-  --hawkes-blue: rgb(92, 117, 244);
+  --hawkes-blue: rgba(209, 217, 255, 1);
   --soapstone: rgba(255, 252, 247, 1);
 }

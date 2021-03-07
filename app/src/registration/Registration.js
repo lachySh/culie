@@ -36,6 +36,8 @@ function Createaccount(props) {
 
       firebaseManager.registerNewUser(userEmail, obj)
 
+      history.push('/onboarding/1');
+
     }
 
     const updateName = (value) => {

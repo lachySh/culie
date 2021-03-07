@@ -18,6 +18,10 @@ function App() {
                 exact
                 path="/"
                 component={Landing} />
+            <Route
+                exact
+                path="/introduction"
+                component={Landing2} />
 
               <Route
                 exact
@@ -42,10 +46,10 @@ function App() {
                   path="/onboarding/3"
                   component={Preferences} />
 
-                  <Route
-                      exact
-                      path="/dashboard"
-                      component={Dashboard}/>
+                <Route
+                    exact
+                    path="/dashboard"
+                    component={Dashboard}/>
 
           </Switch>
 
