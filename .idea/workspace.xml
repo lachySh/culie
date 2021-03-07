@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="quickchange">
-      <change afterPath="$PROJECT_DIR$/app/src/assets/match.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/Backup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/Compatability.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/Compbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/dashboard/jobs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/assets/dashboard/role-matching.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Savedicon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Savedicon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Description.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Preferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Preferences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Backup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Backup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +69,10 @@
       <recent name="$PROJECT_DIR$/app/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/assets/dashboard" />
       <recent name="$PROJECT_DIR$/app/src/assets" />
       <recent name="$PROJECT_DIR$/app/src/dashboard" />
       <recent name="$PROJECT_DIR$/app/src/assets/dashboard/logos" />
-      <recent name="$PROJECT_DIR$/app/src/assets/dashboard" />
       <recent name="$PROJECT_DIR$/app/src/assets/onboarding/buttons" />
     </key>
   </component>
