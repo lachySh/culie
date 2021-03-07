@@ -33,12 +33,16 @@ class FirebaseManager {
     }
 
     async getPasswordForUID(uid) {
+        if (uid.length == 0) {
+            return false
+        }
         const ref = this.db.collection('users').doc(uid);
-        const doc = await ref.get();
-        if (!doc.exists) {
+        var doc = {}
+        if (!ref.exists) {
           return false
         } else {
-          return doc.data().password;
+            doc = await ref.get();
+            return doc.data().password;
         }
     }
 
