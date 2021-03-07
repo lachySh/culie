@@ -77,8 +77,8 @@
   align-items: flex-start;
   background-color: var(--soapstone);
   display: flex;
-  height: 1109px;
-  width: 1881px;
+  height: 100%;
+  width: 100%;
 }
 .role-matching .about-bee {
   left: 113px;
@@ -332,7 +332,7 @@
   left: 520px;
   min-width: 141px;
   position: absolute;
-  top: 50px;
+  top: 40px;
 }
 .role-matching .job-tag-2 {
   align-items: flex-start;
@@ -341,7 +341,7 @@
   left: 362px;
   min-width: 141px;
   position: absolute;
-  top: 51px;
+  top: 40px;
 }
 .role-matching .linked-in {
   left: 122px;
@@ -708,11 +708,9 @@
 }
 .role-matching .rectangle-80 {
   background-color: var(--soapstone);
-  height: 1108px;
-  left: 0px;
-  position: absolute;
-  top: 37px;
-  width: 1881px;
+  height: 100%;
+  position: static;
+  width: 100%;
 }
 .role-matching .role-desc {
   align-items: flex-start;

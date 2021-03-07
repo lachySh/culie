@@ -422,12 +422,12 @@ const jobcardtwoData = {
 
 const jobcardtwo2Data = {
     text19: "Product Designer",
-    googleI139130139: "Google",
+    googleI139130139: "Xero",
     text21: "culture",
     rectangle61: "https://anima-uploads.s3.amazonaws.com/projects/6040d25af92984a6a9ce6c6f/releases/604338b8550d896f1a96719b/img/rectangle-61-1@2x.png",
     text22: "diverse",
     place: "remote",
-    loremIpsumIsSimpl: "Product Design at Google allows you to be responsible for the user experience of reouned products.",
+    loremIpsumIsSimpl: "Product Design at Xero allows you to be responsible for the user experience of reouned products.",
     text20: "Learn more",
     vector: "https://anima-uploads.s3.amazonaws.com/projects/6040d25af92984a6a9ce6c6f/releases/6043041eb240a3cf30940a85/img/vector@2x.png",
 };
