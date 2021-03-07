@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="added dashboard">
+    <list default="true" id="110a60f5-513e-4306-bb0f-34a627c72817" name="Default Changelist" comment="added different companies">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/dashboard/jobs.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/dashboard/jobs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/onboarding/Preferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/onboarding/Preferences.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,17 +78,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
