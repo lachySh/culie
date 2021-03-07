@@ -5,11 +5,15 @@ import Sidebar from "./Sidebar";
 import bgImg from "../assets/landing/background.png";
 import logo from "../assets/landing/logo.png";
 import Main from "./Main";
+import FirebaseManager from "../Utils/FirebaseManager";
+const firebaseManager = new FirebaseManager()
+
 class Dashboard extends React.Component {
     constructor(props){
         super(props)
+        const name = FirebaseManager.userName
         this.state = {
-            name:"Julie",
+            name: name,
             location:"Melbourne",
             occupation:"Product Designer"
 

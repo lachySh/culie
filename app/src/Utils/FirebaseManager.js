@@ -41,13 +41,34 @@ class FirebaseManager {
         if (!doc.exists) {
           console.log('No such document!');
         } else {
-          return doc.data().password;
+            return doc.data().password;
+        }
+    }
+
+    async getName(uid) {
+        const ref = this.db.collection('users').doc(uid);
+        const doc = await ref.get();
+        if (!doc.exists) {
+          console.log('No such document!');
+        } else {
+          return doc.data().name.split(" ", 1);
         }
     }
 
     async registerNewUser(uid, obj) {
         const doc = this.db.collection('users').doc(uid);
         await doc.set(obj)
+    }
+
+    async userCompletedOnboarding(uid) {
+        const ref = this.db.collection('users').doc(uid);
+        const doc = await ref.get();
+        if (!doc.exists) {
+          console.log('No such document!');
+          return false
+        } else {
+          return doc.data().completedOnboarding;
+        }
     }
 
 

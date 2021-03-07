@@ -41,7 +41,12 @@ function Login(props) {
 
     if (fbPass) {
       if (userPassword == fbPass) {
-        history.push('/introduction');
+        FirebaseManager.userName = await firebaseManager.getName(userEmail)
+        if (await firebaseManager.userCompletedOnboarding(userEmail)) {
+          history.push('/dashboard');
+        } else {
+          history.push('/introduction');
+        }
       } else {
         document.getElementById("passwordField").style.color = "red"
       }

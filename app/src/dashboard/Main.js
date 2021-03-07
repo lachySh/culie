@@ -10,6 +10,7 @@ import medipass from "../assets/dashboard/logos/Medipass.png";
 import pwc from "../assets/dashboard/logos/pwc.png";
 import telstra from "../assets/dashboard/logos/telstra-icon.png";
 import xero from "../assets/dashboard/logos/xero-logo.png";
+import FirebaseManager from "../Utils/FirebaseManager";
 
 const Main = () => {
     return (
@@ -20,7 +21,7 @@ const Main = () => {
 
 
                     <Welcome>
-                        Hi Julie, welcome to your dashboard.
+                        Hi {FirebaseManager.userName}, welcome to your dashboard.
 
                     </Welcome>
                     <Subtitle>

@@ -2,6 +2,7 @@ import React from "react";
 import profile from '../assets/dashboard/profile.png'
 import styled from "styled-components";
 import logo from '../assets/landing/logo.png'
+import FirebaseManager from "../Utils/FirebaseManager";
 const Sidebar = () => {
     return (
         <Container>
@@ -11,7 +12,7 @@ const Sidebar = () => {
                 <img src={profile} />
 
                 <h1>
-                    Julie
+                  {FirebaseManager.userName}
                 </h1>
                 <h2>
                     📍Melbourne
